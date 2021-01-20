@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS.each do |brand|
       if BRANDS.include?(brand)
-        BRANDS << @brand        
+        BRANDS << @brand
       end
     end
   end
